@@ -1,0 +1,4 @@
+repository "vr_grab_fruits@e_zavialova@cloud"
+  path "/"
+    br "/main"
+    co "/main"
