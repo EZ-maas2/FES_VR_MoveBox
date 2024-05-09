@@ -1807,18 +1807,18 @@ PrefabInstance:
     - target: {fileID: 8050421019556728808, guid: a401af79dc8700741a66a7493b119491, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1750388476}
     - target: {fileID: 8050421019556728808, guid: a401af79dc8700741a66a7493b119491, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8050421019556728808, guid: a401af79dc8700741a66a7493b119491, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: TurnOffStim
+      value: RestartLvl
       objectReference: {fileID: 0}
     - target: {fileID: 8050421019556728808, guid: a401af79dc8700741a66a7493b119491, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: turn_stim_off, Assembly-CSharp
+      value: RestartBtn, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8050421019556728808, guid: a401af79dc8700741a66a7493b119491, type: 3}
       propertyPath: _whenSelect.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
@@ -1880,7 +1880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cube_model: {fileID: 6776011610185204935, guid: e78fc8fb63a7d1c45a59a0a349c5c525, type: 3}
-  spawn_loc: {x: -0.8, y: 0.7, z: -0.3}
+  spawn_loc: {x: -0.8, y: 0.73, z: -0.3}
 --- !u!1001 &1822695574
 PrefabInstance:
   m_ObjectHideFlags: 0

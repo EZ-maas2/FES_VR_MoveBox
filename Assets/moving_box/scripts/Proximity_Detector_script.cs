@@ -15,8 +15,6 @@ public class Proximity_Detector_script : MonoBehaviour
     
     private float timeElapsed = 0; // KEEPS TRACK HOW LONG THE HAND IS IN PROXIMITY WITH GRABBABLE OBJECT
 
-    public event Action<bool> OnChoiceMade; // event that notifies other objects that the hand spent x seconds in proximity witgh grabbale
-
 
     void switch_cube_color(GameObject cube, Color color){
         if (cube != null )

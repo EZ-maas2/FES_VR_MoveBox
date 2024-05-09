@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class cube_left : MonoBehaviour
+public class CubeLeftStand : MonoBehaviour
 {
 
     bool _cube_left_state;
-    public event Action<bool> OnCubeStateChanged;
+    public event Action CubeLeftE;
 
     // property
     public bool cubeLeftState
@@ -15,7 +15,11 @@ public class cube_left : MonoBehaviour
         get { return _cube_left_state; }
         set {  
             _cube_left_state  =  value;
-            OnCubeStateChanged?.Invoke(_cube_left_state);
+            if (_cube_left_state ==  true)
+            {
+                CubeLeftE?.Invoke();
+            }
+            
             }
     }
 

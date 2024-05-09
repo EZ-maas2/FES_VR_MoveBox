@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class move_side : MonoBehaviour
+public class MoveSide : MonoBehaviour
 {   
     public float speed_m_s; // In units per second
     public float x_min, x_max, y, z;
