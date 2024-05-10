@@ -10,7 +10,7 @@ public class ZMQ : MonoBehaviour
 {
    // public string server_address = "tcp://*:5556"; // tcp://*:5556 for server, tcp://localhost:5556 for client
     public string server_address = "tcp://*:5556";
-    public string FES_parameters = "channel|red|pwm_micros|150|amplitude_mA|20|period_ms|20";
+    public string FES_parameters = "channel|red|pwm_micros|150|amplitude_mA|20|period_ms|28";
     public string FES_parameters_OFF = "channel|red|pwm_micros|0|amplitude_mA|0|period_ms|0";
     private volatile bool thread_running_bool = true;
    
@@ -23,6 +23,9 @@ public class ZMQ : MonoBehaviour
     private volatile bool choiceMade = false; // this bool will be changed by proximity detector 
     private  volatile float current_time;
     private volatile bool newTimer  =  false;
+    private Timer everySecond;
+
+
     
 
 
@@ -56,8 +59,9 @@ public class ZMQ : MonoBehaviour
             current_time = 0.0f;
             newTimer  = false;
         }
-        ChoiceMessage(); // choiceMade is a boolean that indicates whether FES stimulation should be on or off
-        //Thread.Sleep(1000); // sleep 1 seconds
+
+        everySecond = new Timer(Callback, null, 0, 1000); // try sending the FES message evry second
+        //ChoiceMessage(); // choiceMade is a boolean that indicates whether FES stimulation should be on or off
     }
 
     socket.SendMoreFrame("FES").SendFrame("Stop");
@@ -66,6 +70,11 @@ public class ZMQ : MonoBehaviour
    }
 
 // ----------------------------------------------------------------------------------
+private void Callback(object state){
+    ChoiceMessage();
+}
+
+
 
     // receives input from invokation of onchoicemade event in proximity detector class
     void ChoiceChanged(bool choiceState)
@@ -100,6 +109,7 @@ public class ZMQ : MonoBehaviour
             if (choiceMade)
             {
                 socket.SendMoreFrame("FES").SendFrame(FES_parameters);
+                    
             }
 
             else
