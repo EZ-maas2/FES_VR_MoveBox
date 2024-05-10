@@ -224,6 +224,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6277be7203ea6345a201d2341eb8ccf, type: 3}
+--- !u!1 &52231233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5854833319663455554, guid: b6277be7203ea6345a201d2341eb8ccf, type: 3}
+  m_PrefabInstance: {fileID: 52231232}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &177709868 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1716283892654050772, guid: a401af79dc8700741a66a7493b119491, type: 3}
@@ -1487,6 +1492,53 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1151943809}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1368112354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1368112356}
+  - component: {fileID: 1368112355}
+  m_Layer: 0
+  m_Name: GameTimer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1368112355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368112354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2953f506902af438d4d7fb95032da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LeftZone: {fileID: 733309920}
+  InBox: {fileID: 52231233}
+  Res: {fileID: 1750388473}
+--- !u!4 &1368112356
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368112354}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.3303733, y: -1.1197338, z: 2.6605415}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1459442560 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2483171112402218544, guid: f54012181eacade4ea242c65f804720f, type: 3}
@@ -1947,7 +1999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1963453581}
-  - component: {fileID: 1963453583}
+  - component: {fileID: 1963453582}
   m_Layer: 0
   m_Name: FES_controller
   m_TagString: Untagged
@@ -1970,7 +2022,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1963453583
+--- !u!114 &1963453582
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1982,9 +2034,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a542cd89d58e8da43b871b715f99b2bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  server_address: tcp://localhost:5556
-  FES_parameters: channel|red|pwm_micros|100|amplitude_mA|20|period_ms|20
+  server_address: tcp://*:5556
+  FES_parameters: channel|red|pwm_micros|150|amplitude_mA|20|period_ms|20
   FES_parameters_OFF: channel|red|pwm_micros|0|amplitude_mA|0|period_ms|0
+  timer: {fileID: 1368112354}
 --- !u!1 &2007330128
 GameObject:
   m_ObjectHideFlags: 0
@@ -2136,7 +2189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GET NEW CUBE
+  m_text: GET A NEW CUBE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2436,3 +2489,4 @@ SceneRoots:
   - {fileID: 631633216}
   - {fileID: 733309925}
   - {fileID: 717949533}
+  - {fileID: 1368112356}

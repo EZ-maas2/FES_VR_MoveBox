@@ -17,16 +17,21 @@ public class ZMQ : MonoBehaviour
     private Thread thread; // otherwise Unity thread freezes
     private PublisherSocket socket;
 
-    private bool choiceMade = false; // this bool will be changed by proximity detector 
-    private GameTimer timer;
     
+    public GameObject timer;
+
+    private volatile bool choiceMade = false; // this bool will be changed by proximity detector 
+    private  volatile float current_time;
+    private volatile bool newTimer  =  false;
     
+
 
     void Awake(){
 
         // Subscribe to ChoiceController and GameTime
         ChoiceController.OnChoiceStateChanged += ChoiceChanged; 
-        timer.NewTimerDone += TimerMessage;
+        //timer = new GameTimer();
+        timer.GetComponent<GameTimer>().NewTimerDone += GetTimer;
 
         // setup the ZMQ communicatiopn on thread (taken from https://zeromq.org/get-started/?language=csharp&library=netmq#)
         thread = new Thread(new ThreadStart(clientOnThreadPUB)); 
@@ -45,14 +50,19 @@ public class ZMQ : MonoBehaviour
 
     while (thread_running_bool)
     {
+        if(newTimer)
+        {
+            socket.SendMoreFrame("Timer").SendFrame(current_time.ToString());
+            current_time = 0.0f;
+            newTimer  = false;
+        }
         ChoiceMessage(); // choiceMade is a boolean that indicates whether FES stimulation should be on or off
-        Thread.Sleep(1000); // sleep 2 seconds
+        //Thread.Sleep(1000); // sleep 1 seconds
     }
 
     socket.SendMoreFrame("FES").SendFrame("Stop");
+    socket.SendMoreFrame("Timer").SendFrame("Stop");
     socket.Close();
-    
-    NetMQConfig.Cleanup();
    }
 
 // ----------------------------------------------------------------------------------
@@ -64,7 +74,6 @@ public class ZMQ : MonoBehaviour
     }
 
    void OnDestroy(){
-    ChoiceController.OnChoiceStateChanged -= ChoiceChanged;
     thread_running_bool = false;
     if (thread != null && thread.IsAlive)
     {   
@@ -77,10 +86,11 @@ public class ZMQ : MonoBehaviour
 
 // ----------------------------------------------------------------------------------
 
-    void TimerMessage(float time){
-        byte[] time_b = BitConverter.GetBytes(time);
-        socket.SendMoreFrame("Timer").SendFrame(time_b);
+    void GetTimer(float time){
+        current_time = time;
+        newTimer =true;
     }
+
 
 // ----------------------------------------------------------------------------------
 

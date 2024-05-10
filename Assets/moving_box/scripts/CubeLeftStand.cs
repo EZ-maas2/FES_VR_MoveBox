@@ -17,6 +17,7 @@ public class CubeLeftStand : MonoBehaviour
             _cube_left_state  =  value;
             if (_cube_left_state ==  true)
             {
+                Debug.Log("Invoke happend in cubeLeftStand");
                 CubeLeftE?.Invoke();
             }
             
@@ -30,12 +31,9 @@ public class CubeLeftStand : MonoBehaviour
 
     // Start is called before the first frame update
    void OnTriggerExit(Collider collider){
-    Debug.Log($"We started tracking trigger exit, {collider.name}");
-
 
     if (collider.tag == "Cube" || collider.name == "red_cube")
     {
-        Debug.Log("Cube has left the premises");
         cubeLeftState = true;
     }
    }

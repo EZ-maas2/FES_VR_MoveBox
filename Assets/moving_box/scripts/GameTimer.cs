@@ -12,18 +12,19 @@ public class GameTimer : MonoBehaviour
 
    public event Action<float> NewTimerDone; 
    private float current_time;
-   private CubeLeftStand LeftZone;
-   private CubeInBox InBox;
-   private RestartBtn Res;
+
+   public GameObject LeftZone;
+   public GameObject InBox;
+   public GameObject Res;
 
 
    void Awake(){
     TimerIsOn = false;
 
-
-    LeftZone.CubeLeftE += StartTime;
-    InBox.CubeInBoxE += StopTime;
-    Res.RestartE += StopTimeRestart;
+    LeftZone.GetComponent<CubeLeftStand>().CubeLeftE += StartTime;
+    InBox.GetComponent<CubeInBox>().CubeInBoxE += StopTime;
+    Res.GetComponent<RestartBtn>().RestartE += StopTimeRestart;
+    Debug.Log("I am awake ------------------");
 
    }
 
@@ -36,21 +37,22 @@ public class GameTimer : MonoBehaviour
    }
 
    void StartTime(){
-    Debug.Log("Time started");
+    Debug.Log("Time started==========================================================");
     TimerIsOn = true;
    }
 
 
    void StopTime(){
     TimerIsOn =  false;
-    Debug.Log("Time stopped");
+    Debug.Log("Time stopped00000000000000000000000000000000000000");
     NewTimerDone?.Invoke(current_time);
     current_time = 0.0f; // we restart the timer after  sending the thing
    }
 
     void StopTimeRestart(){
     TimerIsOn =  false;
-    Debug.Log("Time stopped");
+    current_time = 0.0f;
+    Debug.Log("Time stopped----------------------------------");
    }
 
 
