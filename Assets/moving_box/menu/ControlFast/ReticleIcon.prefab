@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1a0df94043dfa5141b6208dc6887928c, type: 2}
+  - {fileID: 2100000, guid: 74ace03f3e1da074796eba795aadfd42, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -100,5 +100,5 @@ MonoBehaviour:
   _distanceInteractor: {fileID: 0}
   _renderer: {fileID: 3162044330543675396}
   _centerEye: {fileID: 0}
-  _defaultIcon: {fileID: 2800000, guid: b8a33728c7424b24cafc33cc9a60b66b, type: 3}
+  _defaultIcon: {fileID: 2800000, guid: 8e60a410acce77546aae122d694a3588, type: 3}
   _constantScreenSize: 1
