@@ -4,7 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/moving_box/menu/ControlFast.unity
+    guid: 3159e499286bee4419bbf12ef22c03c2
+  - enabled: 1
+    path: Assets/moving_box/menu/ControlSlow.unity
+    guid: 4df5869f24623f242ae4cc76ea8f526f
+  - enabled: 1
+    path: Assets/moving_box/menu/FESFast.unity
+    guid: 431841b6b0286eb49b8f7af658fe7e61
+  - enabled: 1
+    path: Assets/moving_box/menu/FESSlow.unity
+    guid: ec63d72819272da41b2660b3e2bbc28a
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: fd863dbcbe1849a498613dc33463a347
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 17abe7e20061f944e90bf16a059144d4, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 7bebaf95e4646eb479af92de6c298fce, type: 2}
