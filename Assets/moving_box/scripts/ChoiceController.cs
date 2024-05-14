@@ -9,6 +9,7 @@ public static class ChoiceController
 {
     private static bool _choice = false;
     public static event Action<bool> OnChoiceStateChanged;
+    
 
     public static bool choice
     {
@@ -19,6 +20,7 @@ public static class ChoiceController
         set{
             _choice = value;
             OnChoiceStateChanged?.Invoke(_choice);
+            Debug.Log($"Set choice to {_choice}");
         }
     }
 }

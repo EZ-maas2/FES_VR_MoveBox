@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32588 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16062 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Admin/GitHub/FES_VR_MoveBox
+C:/Users/Asus/Natalia_all/MoveBox
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50244
-Successfully changed project path to: C:/Users/Admin/GitHub/FES_VR_MoveBox
-C:/Users/Admin/GitHub/FES_VR_MoveBox
+50676
+Successfully changed project path to: C:/Users/Asus/Natalia_all/MoveBox
+C:/Users/Asus/Natalia_all/MoveBox
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,70 +49,70 @@ C:/Users/Admin/GitHub/FES_VR_MoveBox
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18288] Host "[IP] 192.168.178.101 [Port] 0 [Flags] 2 [Guid] 3644670856 [EditorId] 3644670856 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KC01D7A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21080] Host "[IP] 10.252.0.70 [Port] 0 [Flags] 2 [Guid] 3385502374 [EditorId] 3385502374 [Version] 1048832 [Id] WindowsEditor(7,Asus-Elizaveta) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18288] Host "[IP] 192.168.178.101 [Port] 0 [Flags] 2 [Guid] 3644670856 [EditorId] 3644670856 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-KC01D7A) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21080] Host "[IP] 10.252.0.70 [Port] 0 [Flags] 2 [Guid] 3385502374 [EditorId] 3385502374 [Version] 1048832 [Id] WindowsEditor(7,Asus-Elizaveta) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 27 workers.
-Refreshing native plugins compatible for Editor in 16.29 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 1.83 ms.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 70.16 ms, found 12 plugins.
+Preloading 3 native plugins for Editor in 3.45 ms.
 Initialize engine version: 2022.3.21f1 (bf09ca542b87)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Admin/GitHub/FES_VR_MoveBox/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Asus/Natalia_all/MoveBox/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
     Vendor:   NVIDIA
-    VRAM:     11999 MB
-    Driver:   31.0.15.5222
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+    VRAM:     3980 MB
+    Driver:   31.0.15.4633
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005011 seconds.
-- Loaded All Assemblies, in  0.272 seconds
+Registered in 0.095984 seconds.
+- Loaded All Assemblies, in  3.360 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 196 ms
+Android Extension - Scanning For ADB Devices 5157 ms
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.387 seconds
-Domain Reload Profiling: 657ms
-	BeginReloadAssembly (59ms)
+- Finished resetting the current domain, in 14.313 seconds
+Domain Reload Profiling: 17665ms
+	BeginReloadAssembly (1312ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (151ms)
-		LoadAssemblies (61ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (349ms)
+	RebuildNativeTypeToScriptingClass (160ms)
+	initialDomainReloadingComplete (769ms)
+	LoadAllAssembliesAndSetupDomain (759ms)
+		LoadAssemblies (1258ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (146ms)
-				TypeCache.ScanAssembly (129ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (387ms)
+		AnalyzeDomain (751ms)
+			TypeCache.Refresh (736ms)
+				TypeCache.ScanAssembly (660ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (14317ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (356ms)
+		SetupLoadedEditorAssemblies (13891ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (266ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (7336ms)
+			SetLoadedEditorAssemblies (542ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (59ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (5735ms)
+			ProcessInitializeOnLoadMethodAttributes (262ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,10 +121,11 @@ Domain Reload Profiling: 657ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.548 seconds
-Refreshing native plugins compatible for Editor in 9.29 ms, found 12 plugins.
+- Loaded All Assemblies, in  1.034 seconds
+Refreshing native plugins compatible for Editor in 22.50 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -157,1632 +158,82 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.538 seconds
-Domain Reload Profiling: 1081ms
-	BeginReloadAssembly (79ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (11ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (5ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (407ms)
-		LoadAssemblies (277ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (134ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (538ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (430ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (336ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 10.89 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6393 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 122 unused Assets / (1.7 MB). Loaded Objects now: 6809.
-Memory consumption went from 260.3 MB to 258.6 MB.
-Total: 3.775700 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.090000 ms MarkObjects: 2.939800 ms  DeleteObjects: 0.481700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 481.962548 seconds.
-  path: Assets/moving_box/scripts/ZMQ_FES.cs
-  artifactKey: Guid(a542cd89d58e8da43b871b715f99b2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moving_box/scripts/ZMQ_FES.cs using Guid(a542cd89d58e8da43b871b715f99b2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fab465e6d5bbe20b485bb9c197bbe2b') in 0.002070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.096120 seconds.
-  path: Assets/moving_box/scripts/ZMQ_FES1.cs
-  artifactKey: Guid(6228bdd107bac6f458d87ad8b4ce7148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moving_box/scripts/ZMQ_FES1.cs using Guid(6228bdd107bac6f458d87ad8b4ce7148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519c6bfb0253b25c5999f6baf09d7e28') in 0.000468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.564243 seconds.
-  path: Assets/moving_box/scripts/ZMQ_FES_ALT.cs
-  artifactKey: Guid(6228bdd107bac6f458d87ad8b4ce7148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moving_box/scripts/ZMQ_FES_ALT.cs using Guid(6228bdd107bac6f458d87ad8b4ce7148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54ef60b19ab2ad4bdf3bf3087c472dd') in 0.000418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.806 seconds
-Refreshing native plugins compatible for Editor in 18.72 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.120 seconds
-Domain Reload Profiling: 1919ms
-	BeginReloadAssembly (150ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (572ms)
-		LoadAssemblies (600ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (50ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1120ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (557ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (90ms)
-			ProcessInitializeOnLoadAttributes (417ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.60 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.09 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6814.
-Memory consumption went from 222.2 MB to 220.5 MB.
-Total: 3.425800 ms (FindLiveObjects: 0.262500 ms CreateObjectMapping: 0.095200 ms MarkObjects: 2.580400 ms  DeleteObjects: 0.487100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.406 seconds
-Refreshing native plugins compatible for Editor in 9.21 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.736 seconds
-Domain Reload Profiling: 1139ms
-	BeginReloadAssembly (104ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (254ms)
-		LoadAssemblies (269ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (32ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (737ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (403ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.47 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6218 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6818.
-Memory consumption went from 224.4 MB to 222.7 MB.
-Total: 3.445200 ms (FindLiveObjects: 0.260200 ms CreateObjectMapping: 0.097000 ms MarkObjects: 2.578100 ms  DeleteObjects: 0.509200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.377 seconds
-Refreshing native plugins compatible for Editor in 10.24 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.707 seconds
-Domain Reload Profiling: 1080ms
-	BeginReloadAssembly (105ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (261ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (707ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (375ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (279ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 12.53 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.09 ms.
-Unloading 6218 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6822.
-Memory consumption went from 226.3 MB to 224.7 MB.
-Total: 3.962900 ms (FindLiveObjects: 0.292600 ms CreateObjectMapping: 0.105100 ms MarkObjects: 3.007100 ms  DeleteObjects: 0.557200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.735 seconds
-Refreshing native plugins compatible for Editor in 21.94 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.205 seconds
-Domain Reload Profiling: 1934ms
-	BeginReloadAssembly (171ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (2ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (482ms)
-		LoadAssemblies (506ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (55ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1206ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (614ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (88ms)
-			ProcessInitializeOnLoadAttributes (456ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.05 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6218 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6826.
-Memory consumption went from 228.3 MB to 226.6 MB.
-Total: 4.041100 ms (FindLiveObjects: 0.278600 ms CreateObjectMapping: 0.139900 ms MarkObjects: 3.060400 ms  DeleteObjects: 0.560400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.387 seconds
-Refreshing native plugins compatible for Editor in 10.73 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.712 seconds
-Domain Reload Profiling: 1096ms
-	BeginReloadAssembly (104ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (237ms)
-		LoadAssemblies (267ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (712ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (386ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (284ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.71 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6218 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6830.
-Memory consumption went from 230.2 MB to 228.5 MB.
-Total: 3.932100 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.111400 ms MarkObjects: 3.014400 ms  DeleteObjects: 0.533000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1244.762028 seconds.
-  path: Assets/Scenes/move_box_template_menu.scenetemplate
-  artifactKey: Guid(b9b3c4708698edd41b0ec70699637e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/move_box_template_menu.scenetemplate using Guid(b9b3c4708698edd41b0ec70699637e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d1bee49653ff54d2a38b18ee21973c') in 0.513670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11358
-========================================================================
-Received Import Request.
-  Time since last request: 23.875711 seconds.
-  path: Assets/moving_box/menu/ControlFast.unity
-  artifactKey: Guid(3159e499286bee4419bbf12ef22c03c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moving_box/menu/ControlFast.unity using Guid(3159e499286bee4419bbf12ef22c03c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae57d3b3c104a7b0809c8bf2a55b93b') in 0.000794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 20.381017 seconds.
-  path: Assets/moving_box/menu/FESSlow.unity
-  artifactKey: Guid(ec63d72819272da41b2660b3e2bbc28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moving_box/menu/FESSlow.unity using Guid(ec63d72819272da41b2660b3e2bbc28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8914be6a04de96a7ceb93a32199dc3') in 0.000783 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.395 seconds
-Refreshing native plugins compatible for Editor in 9.55 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.763 seconds
-Domain Reload Profiling: 1155ms
-	BeginReloadAssembly (108ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (240ms)
-		LoadAssemblies (256ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (32ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (764ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (371ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (267ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.27 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6216 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 95 unused Assets / (1.7 MB). Loaded Objects now: 6839.
-Memory consumption went from 234.9 MB to 233.2 MB.
-Total: 3.548100 ms (FindLiveObjects: 0.264100 ms CreateObjectMapping: 0.092700 ms MarkObjects: 2.636000 ms  DeleteObjects: 0.554700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.363 seconds
-Refreshing native plugins compatible for Editor in 10.01 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.728 seconds
-Domain Reload Profiling: 1087ms
-	BeginReloadAssembly (104ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (212ms)
-		LoadAssemblies (243ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (728ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (390ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (57ms)
-			ProcessInitializeOnLoadAttributes (291ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.48 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.09 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6843.
-Memory consumption went from 237.1 MB to 235.4 MB.
-Total: 3.635700 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.098900 ms MarkObjects: 2.710000 ms  DeleteObjects: 0.562700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1533.323031 seconds.
-  path: Assets/moving_box/scripts/ZMQ_FES_ALT.cs
-  artifactKey: Guid(6228bdd107bac6f458d87ad8b4ce7148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/moving_box/scripts/ZMQ_FES_ALT.cs using Guid(6228bdd107bac6f458d87ad8b4ce7148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fb0c48c3d0d64f808b8b45597b844f') in 0.003539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.734 seconds
-Refreshing native plugins compatible for Editor in 18.96 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.285 seconds
-Domain Reload Profiling: 2011ms
-	BeginReloadAssembly (177ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (472ms)
-		LoadAssemblies (501ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (54ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (18ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1285ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (633ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (468ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.81 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.09 ms.
-Unloading 6216 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6847.
-Memory consumption went from 238.7 MB to 237.1 MB.
-Total: 3.821400 ms (FindLiveObjects: 0.293100 ms CreateObjectMapping: 0.136800 ms MarkObjects: 2.865300 ms  DeleteObjects: 0.525300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.350 seconds
-Refreshing native plugins compatible for Editor in 9.27 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.764 seconds
-Domain Reload Profiling: 1110ms
-	BeginReloadAssembly (99ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (231ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (764ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (434ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (330ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.37 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6851.
-Memory consumption went from 240.9 MB to 239.3 MB.
-Total: 3.620800 ms (FindLiveObjects: 0.282700 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.667400 ms  DeleteObjects: 0.588900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.351 seconds
-Refreshing native plugins compatible for Editor in 9.31 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.773 seconds
-Domain Reload Profiling: 1120ms
-	BeginReloadAssembly (99ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (232ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (773ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (445ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (324ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.90 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6855.
-Memory consumption went from 242.9 MB to 241.2 MB.
-Total: 3.605800 ms (FindLiveObjects: 0.240600 ms CreateObjectMapping: 0.068400 ms MarkObjects: 2.642800 ms  DeleteObjects: 0.653400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.358 seconds
-Refreshing native plugins compatible for Editor in 9.32 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.782 seconds
-Domain Reload Profiling: 1137ms
-	BeginReloadAssembly (98ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (207ms)
-		LoadAssemblies (235ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (16ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (783ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (446ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (326ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.47 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6859.
-Memory consumption went from 244.8 MB to 243.1 MB.
-Total: 3.536900 ms (FindLiveObjects: 0.247800 ms CreateObjectMapping: 0.068700 ms MarkObjects: 2.677900 ms  DeleteObjects: 0.541700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.350 seconds
-Refreshing native plugins compatible for Editor in 9.39 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.772 seconds
-Domain Reload Profiling: 1118ms
-	BeginReloadAssembly (99ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (233ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (772ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (440ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (317ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 11.52 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.09 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6863.
-Memory consumption went from 246.7 MB to 245.0 MB.
-Total: 3.924000 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.119300 ms MarkObjects: 2.918600 ms  DeleteObjects: 0.590300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.783 seconds
-Refreshing native plugins compatible for Editor in 10.24 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.208 seconds
-Domain Reload Profiling: 1983ms
-	BeginReloadAssembly (174ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (524ms)
-		LoadAssemblies (567ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (39ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1208ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (606ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (92ms)
-			ProcessInitializeOnLoadAttributes (443ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.56 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.6 MB). Loaded Objects now: 6867.
-Memory consumption went from 248.6 MB to 247.0 MB.
-Total: 3.556200 ms (FindLiveObjects: 0.335900 ms CreateObjectMapping: 0.094700 ms MarkObjects: 2.553600 ms  DeleteObjects: 0.571400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.375 seconds
-Refreshing native plugins compatible for Editor in 9.55 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.743 seconds
-Domain Reload Profiling: 1115ms
-	BeginReloadAssembly (102ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (226ms)
-		LoadAssemblies (242ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (30ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (744ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (389ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (283ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.71 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6871.
-Memory consumption went from 250.5 MB to 248.9 MB.
-Total: 3.754600 ms (FindLiveObjects: 0.273900 ms CreateObjectMapping: 0.135300 ms MarkObjects: 2.843600 ms  DeleteObjects: 0.501300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.355 seconds
-Refreshing native plugins compatible for Editor in 9.62 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.795 seconds
-Domain Reload Profiling: 1146ms
-	BeginReloadAssembly (101ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (209ms)
-		LoadAssemblies (237ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (795ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (463ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (354ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 11.21 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.09 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.6 MB). Loaded Objects now: 6875.
-Memory consumption went from 252.5 MB to 250.8 MB.
-Total: 4.457500 ms (FindLiveObjects: 0.263700 ms CreateObjectMapping: 0.105300 ms MarkObjects: 3.502400 ms  DeleteObjects: 0.585400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.653 seconds
-Refreshing native plugins compatible for Editor in 22.08 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.230 seconds
-Domain Reload Profiling: 1875ms
-	BeginReloadAssembly (126ms)
+- Finished resetting the current domain, in  1.015 seconds
+Domain Reload Profiling: 2039ms
+	BeginReloadAssembly (163ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (445ms)
-		LoadAssemblies (460ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (760ms)
+		LoadAssemblies (561ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (55ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (2ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (1230ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (227ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1015ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (613ms)
+		SetupLoadedEditorAssemblies (809ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (89ms)
-			ProcessInitializeOnLoadAttributes (453ms)
-			ProcessInitializeOnLoadMethodAttributes (34ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (623ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 9.42 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.6 MB). Loaded Objects now: 6879.
-Memory consumption went from 254.4 MB to 252.7 MB.
-Total: 3.974800 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.133100 ms MarkObjects: 3.022800 ms  DeleteObjects: 0.538600 ms)
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 24.66 ms, found 12 plugins.
+Preloading 3 native plugins for Editor in 0.21 ms.
+Unloading 6393 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 171 unused Assets / (3.9 MB). Loaded Objects now: 6762.
+Memory consumption went from 257.7 MB to 253.8 MB.
+Total: 11.889100 ms (FindLiveObjects: 0.475000 ms CreateObjectMapping: 0.262400 ms MarkObjects: 8.328200 ms  DeleteObjects: 2.821700 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 171.374150 seconds.
+  path: Assets/moving_box/scripts/BoxProximity.cs
+  artifactKey: Guid(25b55872f43327245a8453d420adbe0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moving_box/scripts/BoxProximity.cs using Guid(25b55872f43327245a8453d420adbe0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d6bef55fb265b126f73feb4fe677c9') in 0.003069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.350 seconds
-Refreshing native plugins compatible for Editor in 9.16 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.778 seconds
+Refreshing native plugins compatible for Editor in 19.29 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -1811,48 +262,50 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.770 seconds
-Domain Reload Profiling: 1117ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  1.823 seconds
+Domain Reload Profiling: 2592ms
+	BeginReloadAssembly (188ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (233ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (489ms)
+		LoadAssemblies (535ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (771ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1823ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (454ms)
+		SetupLoadedEditorAssemblies (535ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadAttributes (399ms)
 			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 11.15 ms, found 12 plugins.
-Preloading 3 native plugins for Editor in 0.09 ms.
-Unloading 6217 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (1.7 MB). Loaded Objects now: 6883.
-Memory consumption went from 256.3 MB to 254.7 MB.
-Total: 4.767300 ms (FindLiveObjects: 0.278900 ms CreateObjectMapping: 0.117000 ms MarkObjects: 3.698100 ms  DeleteObjects: 0.672700 ms)
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 17.48 ms, found 12 plugins.
+Preloading 3 native plugins for Editor in 0.14 ms.
+Unloading 6265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 143 unused Assets / (3.8 MB). Loaded Objects now: 6766.
+Memory consumption went from 235.1 MB to 231.2 MB.
+Total: 6.330400 ms (FindLiveObjects: 0.400900 ms CreateObjectMapping: 0.222600 ms MarkObjects: 4.142700 ms  DeleteObjects: 1.563300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1864,7 +317,281 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 537.944421 seconds.
+  path: Assets/moving_box/colors
+  artifactKey: Guid(8b189247c0dcda3438d0a47f67f84eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moving_box/colors using Guid(8b189247c0dcda3438d0a47f67f84eb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f6579d0555d25074c8d7c7842cce67') in 0.011868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.145258 seconds.
+  path: Assets/moving_box/colors/green.mat
+  artifactKey: Guid(c4c0ce552e2e24e4596a80b068628cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moving_box/colors/green.mat using Guid(c4c0ce552e2e24e4596a80b068628cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4104bb864dcae2b9ab32b09fd95d390') in 0.089595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/moving_box/colors/red.mat
+  artifactKey: Guid(401914e89dd10ad41a45b93ba17db5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moving_box/colors/red.mat using Guid(401914e89dd10ad41a45b93ba17db5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d83b776f30c1acaeaef1e2d106d6f36') in 0.011159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/moving_box/colors/white.mat
+  artifactKey: Guid(141eab98892c8c1439b332b40fe39b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moving_box/colors/white.mat using Guid(141eab98892c8c1439b332b40fe39b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfe5418066fa6d90aa4d77dfcb02115') in 0.013659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/moving_box/colors/New Material.mat
+  artifactKey: Guid(70c6d38a82b7c574b8b3d4c9399da4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moving_box/colors/New Material.mat using Guid(70c6d38a82b7c574b8b3d4c9399da4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f88def20b91d19ad9bae9a2d3874bb2') in 0.011964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/moving_box/colors/transp_white.mat
+  artifactKey: Guid(affae636cab3a5e44a491928f8e69806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moving_box/colors/transp_white.mat using Guid(affae636cab3a5e44a491928f8e69806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc22dfaffa32b601a55c18eed468e6d4') in 0.012864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/moving_box/colors/orange.mat
+  artifactKey: Guid(e01ebf8ba10eb31429f10403ac9d7548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moving_box/colors/orange.mat using Guid(e01ebf8ba10eb31429f10403ac9d7548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86a9b662f302753f3ee2e157ad5134f') in 0.013385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 27.01 ms, found 12 plugins.
+Preloading 3 native plugins for Editor in 0.24 ms.
+Unloading 60 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (3.7 MB). Loaded Objects now: 6807.
+Memory consumption went from 139.9 MB to 136.2 MB.
+Total: 7.574000 ms (FindLiveObjects: 0.506800 ms CreateObjectMapping: 0.672200 ms MarkObjects: 4.793700 ms  DeleteObjects: 1.600400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.826 seconds
+Refreshing native plugins compatible for Editor in 20.25 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.264 seconds
+Domain Reload Profiling: 3081ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (568ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2265ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (593ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 20.69 ms, found 12 plugins.
+Preloading 3 native plugins for Editor in 0.17 ms.
+Unloading 6265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 143 unused Assets / (3.8 MB). Loaded Objects now: 6810.
+Memory consumption went from 237.3 MB to 233.5 MB.
+Total: 8.290100 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.233300 ms MarkObjects: 5.112300 ms  DeleteObjects: 2.475200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  2.322 seconds
+Refreshing native plugins compatible for Editor in 39.18 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:298 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@4.2.0\Runtime\OculusLoader.cs:283 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4b234520e36749be9cf6b053d911690f>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4b234520e36749be9cf6b053d911690f>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4b234520e36749be9cf6b053d911690f>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <24e1ed8728684ea3ae446f80787d18de>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.330 seconds
+Domain Reload Profiling: 4635ms
+	BeginReloadAssembly (512ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (129ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (1679ms)
+		LoadAssemblies (1840ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (72ms)
+	FinalizeReload (2331ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (663ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 94.77 ms, found 12 plugins.
+Preloading 3 native plugins for Editor in 0.33 ms.
+Unloading 6265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 143 unused Assets / (3.8 MB). Loaded Objects now: 6814.
+Memory consumption went from 239.3 MB to 235.5 MB.
+Total: 37.754600 ms (FindLiveObjects: 2.042400 ms CreateObjectMapping: 1.585200 ms MarkObjects: 29.697600 ms  DeleteObjects: 4.427800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 

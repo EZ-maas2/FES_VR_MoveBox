@@ -52,7 +52,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 024f5a41aebd5e6488b8d47a202f5932, type: 2}
+  - {fileID: 2100000, guid: 4fa4e2e56b39054419cdb6b12e14812a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -77,7 +77,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 7651338606612194819, guid: e339cbbd9a42767439a210982e88831d, type: 3}
+  m_Mesh: {fileID: 7651338606612194819, guid: 937c545ec968f82428aa6b28569e19e8, type: 3}
   m_Bones: []
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
@@ -147,7 +147,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 94e2ca6dbe189c14c9728790a21ba6c7, type: 2}
+  - {fileID: 2100000, guid: 3e600bb898b035e4fa1de003dc85aad9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -479,7 +479,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 30002
-  m_Sprite: {fileID: 21300000, guid: 5772b5d0c6965214f94bcc126e9d456a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dfd7924f73d1b0340ba5d5d3440ca22e, type: 3}
   m_Color: {r: 0.19215688, g: 0.64705884, b: 0.9843138, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -42,7 +42,7 @@ public class ZMQ_FES_ALT : MonoBehaviour
                 {
                     socket.SendMoreFrame("FES").SendFrame(choiceMade.ToString());
                 }
-                Thread.Sleep(1000); // 1-second delay
+                Thread.Sleep(100); // 1-second delay
             }
             
         }

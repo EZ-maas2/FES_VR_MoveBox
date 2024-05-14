@@ -11,6 +11,7 @@ public class ZMQ_Timer : MonoBehaviour
    // public string server_address = "tcp://*:5556"; // tcp://*:5556 for server, tcp://localhost:5556 for client
     public string server_address = "tcp://*:5557";
     private volatile bool thread_running_bool = true;
+    public string SCENE_NAME = "No Name";
    
     private Thread thread; // otherwise Unity thread freezes
     private PublisherSocket socket;
@@ -42,6 +43,7 @@ public class ZMQ_Timer : MonoBehaviour
     socket = new PublisherSocket();
     socket.Options.SendHighWatermark = 1000;
     socket.Bind(server_address);
+    socket.SendMoreFrame("Timer").SendFrame(SCENE_NAME);
 
     while (thread_running_bool)
     {

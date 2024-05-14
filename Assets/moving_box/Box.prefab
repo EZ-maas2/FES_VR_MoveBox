@@ -115,7 +115,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5519981645120852468}
   - component: {fileID: 841446797777560886}
-  - component: {fileID: 2106186498857327188}
   m_Layer: 0
   m_Name: ProximityDetector
   m_TagString: Untagged
@@ -159,24 +158,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1552636, y: 1, z: 1}
   m_Center: {x: -0.024302974, y: 0, z: 0}
---- !u!114 &2106186498857327188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1706616861944993008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b499da05011c2f4a85c94681a11adc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  handTag: Hand
-  messageOnChoice: 0
-  duration_till_chosen: 0.2
-  originalColor: {r: 1, g: 0, b: 0, a: 1}
-  selectionColor: {r: 0, g: 1, b: 0, a: 1}
-  cube: {fileID: 0}
 --- !u!1 &4171173144088024753
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,6 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a58ef23de7938cf49bc9cfebd0fffa74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
   new_cube: {fileID: 6776011610185204935, guid: e78fc8fb63a7d1c45a59a0a349c5c525, type: 3}
 --- !u!1 &6634000151718571166
 GameObject:

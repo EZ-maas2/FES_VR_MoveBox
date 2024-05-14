@@ -47,7 +47,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FingerGlowMask:
-        m_Texture: {fileID: 2800000, guid: 6232a18e670b8494eb5f392bbc2eb44f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 647163af08ee4da439f29441bb209425, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GlowMask:
