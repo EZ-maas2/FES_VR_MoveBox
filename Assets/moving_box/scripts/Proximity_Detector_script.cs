@@ -13,6 +13,7 @@ public class Proximity_Detector_script : MonoBehaviour
     public Color selectionColor = Color.green;
     public GameObject cube;
     
+    private bool isNewContact  = false;
     private float timeElapsed = 0; // KEEPS TRACK HOW LONG THE HAND IS IN PROXIMITY WITH GRABBABLE OBJECT
 
 
@@ -24,10 +25,14 @@ public class Proximity_Detector_script : MonoBehaviour
         
     }
 
+    void OnTriggerEnter(Collider collider){
+        isNewContact = true;
+    }
+
 
     void OnTriggerStay(Collider collider)
     {
-        if (collider.CompareTag(handTag))
+        if (collider.CompareTag(handTag) & isNewContact) // is new contact  is needed  to make sure  that the choiceChanged is  changed  onlyonce
         {
             timeElapsed += Time.deltaTime;
         }
@@ -35,6 +40,7 @@ public class Proximity_Detector_script : MonoBehaviour
         if (timeElapsed >= duration_till_chosen)
         {
             timeElapsed = 0;
+            isNewContact  = false;
             switch_cube_color(cube, selectionColor);
             ChoiceController.choice = messageOnChoice; // this will change the state of choice object in choicecontroller which notifies the server
         }
