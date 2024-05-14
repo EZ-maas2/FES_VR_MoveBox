@@ -201,7 +201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5519981645120852468, guid: b6277be7203ea6345a201d2341eb8ccf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1131
+      value: 1.0595155
       objectReference: {fileID: 0}
     - target: {fileID: 5519981645120852468, guid: b6277be7203ea6345a201d2341eb8ccf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -213,7 +213,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5519981645120852468, guid: b6277be7203ea6345a201d2341eb8ccf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.571
+      value: -0.547
       objectReference: {fileID: 0}
     - target: {fileID: 5810165765042373942, guid: b6277be7203ea6345a201d2341eb8ccf, type: 3}
       propertyPath: m_LocalScale.x
@@ -2243,6 +2243,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1963453581}
+  - component: {fileID: 1963453582}
   m_Layer: 0
   m_Name: FES_controller
   m_TagString: Untagged
@@ -2265,6 +2266,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1963453582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963453580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6228bdd107bac6f458d87ad8b4ce7148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  server_address: tcp://*:5556
+  FES_parameters: channel|red|pwm_micros|150|amplitude_mA|16|period_ms|20
 --- !u!1 &1966655651
 GameObject:
   m_ObjectHideFlags: 0
