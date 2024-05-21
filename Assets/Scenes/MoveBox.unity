@@ -2279,7 +2279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   server_address: tcp://*:5556
-  FES_parameters: channel|red|pwm_micros|150|amplitude_mA|16|period_ms|20
+  FES_parameters: channel|red|pwm_micros|150|amplitude_mA|20|period_ms|28
 --- !u!1 &1966655651
 GameObject:
   m_ObjectHideFlags: 0

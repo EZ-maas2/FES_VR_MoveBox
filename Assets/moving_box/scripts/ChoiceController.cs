@@ -20,7 +20,7 @@ public static class ChoiceController
         set{
             _choice = value;
             OnChoiceStateChanged?.Invoke(_choice);
-            Debug.Log($"Set choice to {_choice}");
+            Debug.Log($"Set choice to {_choice}, {DateTime.Now}");
         }
     }
 }

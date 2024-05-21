@@ -22,16 +22,15 @@ public class BoxProximity : MonoBehaviour
    
  void OnTriggerEnter(Collider collider)
     {
-        ChoiceController.choice = false;
+       
         if (collider.CompareTag("Cube") || collider.name == "red_cube")
         {
             
 
             GameObject cube = GameObject.FindGameObjectWithTag("Cube");  
-            Debug.Log($"Detected {collider} -----------------");
             Transform pd = cube.transform.Find("ProximityDetector");
-            Debug.Log(pd);
             BoxCollider bc = pd.GetComponent<BoxCollider>();
+            ChoiceController.choice = false;
             bc.enabled = false;
             switch_cube_color(cube, selectionColor);
             ChoiceController.choice = false; // this will change the state of choice object in choicecontroller which notifies the server
